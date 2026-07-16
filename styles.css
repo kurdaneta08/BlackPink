@@ -101,7 +101,7 @@ audio {
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 40px;
-    border: 1px solid #252525;
+    border: 1px solid #ff69b4;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
@@ -176,7 +176,7 @@ audio {
     border-radius: 12px;
     overflow: hidden;
     text-align: center;
-    border: 1px solid #252525;
+    border: 1px solid #ff69b4;
     vertical-align: top;
 }
 
