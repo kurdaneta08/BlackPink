@@ -1,5 +1,4 @@
-CSS
-/* ESTILOS GENERALES Y COLORES BASE */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,24 +7,24 @@ CSS
 }
 
 body {
-    background-color: #0b0b0b; /* Negro de fondo */
-    color: #ffffff; /* Letras blancas */
+    background-color: #0b0b0b; 
+    color: #ffffff; 
     padding-bottom: 50px;
 }
 
-/* ENCABEZADO (HEADER) */
+
 header {
     background: linear-gradient(180deg, #000000, #151515);
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 4px solid #ff69b4; /* Línea rosa característica */
+    border-bottom: 4px solid #ff69b4; 
 }
 
 header h1 {
     font-size: 3.5rem;
     font-weight: 900;
     letter-spacing: 7px;
-    color: #ff69b4; /* Rosa Blackpink */
+    color: #ff69b4;
     text-shadow: 0 0 15px rgba(255, 105, 180, 0.7);
     margin-bottom: 10px;
 }
@@ -37,7 +36,7 @@ header p {
     letter-spacing: 3px;
 }
 
-/* MENÚ DE NAVEGACIÓN */
+
 nav {
     margin-top: 25px;
 }
@@ -59,7 +58,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff69b4; /* Cambia a rosa al pasar el mouse */
+    color: #ff69b4; 
 }
 
 .main-container {
@@ -68,7 +67,7 @@ nav ul li a:hover {
     padding: 0 20px;
 }
 
-/* REPRODUCTOR DE AUDIO */
+
 .audio-player-box {
     background: #141414;
     border: 2px solid #ff69b4;
@@ -97,7 +96,6 @@ audio {
     outline: none;
 }
 
-/* PUBLICACIÓN PRINCIPAL (POST) */
 .post {
     background-color: #141414;
     border-radius: 15px;
@@ -116,7 +114,7 @@ audio {
 .post-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la foto grupal sin estirarla */
+    object-fit: cover; 
 }
 
 .post-content {
@@ -151,7 +149,7 @@ audio {
     font-size: 1.05rem;
 }
 
-/* GALERÍA DE LAS INTEGRANTES */
+
 .members-section {
     margin-top: 50px;
 }
@@ -191,7 +189,7 @@ audio {
 .member-img-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Adapta los rostros perfectamente */
+    object-fit: cover; 
 }
 
 .member-card h3 {
@@ -201,7 +199,7 @@ audio {
     color: #ffffff;
 }
 
-/* PIE DE PÁGINA (FOOTER) */
+
 footer {
     text-align: center;
     padding: 40px 20px;
